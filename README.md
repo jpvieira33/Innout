@@ -13,23 +13,11 @@
 <h5>Automatizar o registro de entrada e saída de funcionários de uma empresa, como relatórios mensais, horas extras, faltas e etc.<h5>
  </div>
  
- <div id="tecnologias">
- <h2>🛠Tecnologias</h2>
-  <h5>PHP<h5>
-  <h5>MySql<h5>
-  <h5>Bootstrap<h5>
- </div>
-   
   <div id="licenc-a">
    <h2>Licença</h2>
     <h5>MIT<h5>
   </div>
-     
-   <div id="autor">
-   <h2>Autor</h2>
-    <h5>João Paulo Vieira<h5>
-  </div>
-     
+       
  <h4> 
 	🚧  PHP Select 🚀 Em construção...  🚧
 </h4>
@@ -47,7 +35,7 @@
 ## Pré-requisitos
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
-[MAMP],  Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
+[MAMP](https://www.mamp.info/en/windows/),  Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
 ### 🎲 Rodando o Back End (servidor)
 
@@ -60,6 +48,14 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 # Configure o arquivo env.ini com as configurações locais do seu servidor mysql, como o host, user, password e database
 
 ```
+
+### 🛠 Tecnologias
+
+As seguintes ferramentas foram usadas na construção do projeto:
+
+- PHP
+- MySql
+- Bootstrap
 
 ### Autor
 ---
