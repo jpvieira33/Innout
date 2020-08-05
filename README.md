@@ -43,3 +43,15 @@
 <h1 align="center">
   <img alt="Login" title="#Login" src="./public/assets/screenshots/innout-login.png" />
 </h1>
+
+### Autor
+---
+
+ <img style="border-radius: 50%;" src="https://avatars0.githubusercontent.com/u/29737198?s=460&u=ee291d8e2af73d2411363317b8e8e33a2b07bdd8&v=4" width="100px;" alt=""/>
+ <br />
+ <sub><b>João Paulo Vieira</b></sub>🚀
+
+
+Feito com ❤️ por João Paulo Vieira 👋🏽 Entre em contato!
+
+ [![Linkedin Badge](https://img.shields.io/badge/-João Paulo-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/jo%C3%A3o-paulo-vieira-0a838412a/)](https://www.linkedin.com/in/jo%C3%A3o-paulo-vieira-0a838412a/) 
