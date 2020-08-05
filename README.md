@@ -25,7 +25,7 @@
     <h3>MIT<h3>
   </div>
      
-    <div id="autor">
+   <div id="autor">
    <h2>Autor</h2>
     <h3>João Paulo Vieira<h3>
   </div>
