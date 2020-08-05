@@ -39,3 +39,7 @@
 - [x] Login do usuário
 - [x] Cadastro de usuários
 - [ ] Cadastro de funcionários
+
+<h1 align="center">
+  <img alt="Login" title="#Login" src="./public/assets/screenshots/innout-login.png" />
+</h1>
