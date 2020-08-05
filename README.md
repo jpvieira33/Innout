@@ -13,6 +13,7 @@
 <h5>Automatizar o registro de entrada e saída de funcionários de uma empresa, como relatórios mensais, horas extras, faltas e etc.<h5>
  </div>
  
+ <h2>Status</h2>
      
  <h4> 
 	🚧  PHP Select 🚀 Em construção...  🚧
@@ -69,11 +70,13 @@ As seguintes ferramentas foram usadas na construção do projeto:
   
 Feito com ❤️ por João Paulo Vieira 👋🏽 
 
+<br>
+
  <h2>Licença</h2>
 
-##MIT License
+<b>MIT License</b>
 
-Copyright (c) <2020> João Paulo Vieira.
+Copyright (c) 2020 - João Paulo Vieira.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
