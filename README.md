@@ -1,5 +1,5 @@
 # Innout
-<p align="center"> Sistema de registro de entrada e saída de funcionários feito em PHP</p>
+<p align="center"> 🚀 Sistema de registro de entrada e saída de funcionários feito em PHP</p>
 
 <p align="center">
  <a href="#objetivo">Objetivo</a> •
@@ -14,7 +14,7 @@
  </div>
  
  <div id="tecnologias">
- <h2>Tecnologias</h2>
+ <h2>🛠Tecnologias</h2>
   <h3>PHP<h3>
   <h3>MySql<h3>
   <h3>Bootstrap<h3>
@@ -29,3 +29,13 @@
    <h2>Autor</h2>
     <h3>João Paulo Vieira<h3>
   </div>
+     
+ <h4 align="center"> 
+	🚧  PHP Select 🚀 Em construção...  🚧
+</h4>
+
+### Features
+
+- [x] Login do usuário
+- [x] Cadastro de usuários
+- [ ] Cadastro de funcionários
