@@ -45,11 +45,10 @@
 </h1>
 
 ### Autor
----
 
  <img style="border-radius: 50%;" src="https://avatars0.githubusercontent.com/u/29737198?s=460&u=ee291d8e2af73d2411363317b8e8e33a2b07bdd8&v=4" width="100px;" alt=""/>
- <br />
- <sub><b>João Paulo Vieira</b></sub>🚀
+ <br>
+ <<b>João Paulo Vieira</b><🚀
  
   
   
