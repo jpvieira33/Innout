@@ -32,6 +32,7 @@
   <img alt="Login" title="#Login" src="./public/assets/screenshots/innout-login.png" />
 </h1>
 
+
 ## Pré-requisitos
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
@@ -49,6 +50,7 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 
 ```
 
+
 ### 🛠 Tecnologias
 
 As seguintes ferramentas foram usadas na construção do projeto:
@@ -56,6 +58,8 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - PHP
 - MySql
 - Bootstrap
+
+
 
 ### Autor
 ---
