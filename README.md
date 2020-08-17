@@ -32,7 +32,7 @@
 </h1>
 
 <h1 align="center">
-  <img alt="Login" title="#Login" src="./public/assets/screenshots/innout-login.png" />
+  <img alt="Login" title="#Login" src="./public/assets/screenshots/innout-principal.png" />
 </h1>
 
 
