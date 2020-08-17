@@ -22,8 +22,14 @@
 ### Features
 
 - [x] Login do usuário
-- [x] Cadastro de usuários
-- [ ] Cadastro de funcionários
+- [x]  Tela Principal
+- [x]  Batimento de Ponto
+- [ ] Cadastro de usuários
+
+
+<h1 align="center">
+  <img alt="Login" title="#Login" src="./public/assets/screenshots/innout-login.png" />
+</h1>
 
 <h1 align="center">
   <img alt="Login" title="#Login" src="./public/assets/screenshots/innout-login.png" />
