@@ -1,6 +1,6 @@
 <?php
 
- class Model {
+class Model {
     protected static $tableName = '';
     protected static $columns = [];
     protected $values = [];
@@ -55,22 +55,6 @@
         return $objects;
     }
 
-    private static function getFilters($filters)
-    {
-        $sql = '';
-        if (count($filters) > 0) {
-            $sql .= " WHERE 1 = 1";
-            foreach ($filters as $column => $value) {
-                if ($column == 'raw') {
-                    $sql .= " AND {$value}";
-                } else {
-                    $sql .= " AND ${column} = " . static::getFormatedValue($value);
-                }
-            }
-        }
-        return $sql;
-    }
-
     public static function getResultSetFromSelect($filters = [], $columns = '*') {
         $sql = "SELECT ${columns} FROM "
             . static::$tableName
@@ -104,18 +88,43 @@
         Database::executeSQL($sql);
     }
 
+    public static function getCount($filters = []) {
+        $result = static::getResultSetFromSelect(
+            $filters, 'count(*) as count');
+        return $result->fetch_assoc()['count'];
+    }
 
-    private static function getFormatedValue($value)
-    {
-        if (is_null($value)) {
+    public function delete() {
+        static::deleteById($this->id);
+    }
+
+    public static function deleteById($id) {
+        $sql = "DELETE FROM " . static::$tableName . " WHERE id = {$id}";
+        Database::executeSQL($sql);
+    }
+
+    private static function getFilters($filters) {
+        $sql = '';
+        if(count($filters) > 0) {
+            $sql .= " WHERE 1 = 1";
+            foreach($filters as $column => $value) {
+                if($column == 'raw') {
+                    $sql .= " AND {$value}";
+                } else {
+                    $sql .= " AND ${column} = " . static::getFormatedValue($value);
+                }
+            }
+        } 
+        return $sql;
+    }
+
+    private static function getFormatedValue($value) {
+        if(is_null($value)) {
             return "null";
-        } elseif (gettype($value) === 'string') {
+        } elseif(gettype($value) === 'string') {
             return "'${value}'";
         } else {
             return $value;
         }
     }
 }
-
-
-?>

@@ -1,4 +1,4 @@
-body{
+body {
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -10,6 +10,14 @@ body{
     flex-basis: 450px;
 }
 
-.login-card .card-header{
+.login-card .card-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 1.8rem;
+}
+
+.login-card .card-footer {
+    display: flex;
+    justify-content: flex-end;
 }

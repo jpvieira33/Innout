@@ -1,11 +1,13 @@
 <?php
 
- function validSession(){
+function requireValidSession($requiresAdmin = false) {
     $user = $_SESSION['user'];
-     if(!isset($user)){
-         header('Location: login_controller.php');
-         exit();
-     }
- }
-
- ?>
+    if(!isset($user)) {
+        header('Location: login.php');
+        exit();
+    } elseif($requiresAdmin && !$user->is_admin) {
+        addErrorMsg('Acesso negado!');
+        header('Location: day_records.php');
+        exit();
+    }
+}
